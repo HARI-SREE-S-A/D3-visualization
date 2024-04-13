@@ -4,6 +4,9 @@ import tkinter as tk
 from tkinter import scrolledtext
 import webbrowser
 
+
+
+
 def search_schemes(pdf_file, keyword):
     schemes = []
     with open(pdf_file, 'rb') as file:
